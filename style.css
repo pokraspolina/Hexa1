@@ -248,9 +248,5 @@ input[type=email], input[type=number], input[type=password], input[type=tel], in
     }
     .menu a:nth-child(5) {
         padding-left: 0vw;
-    }
-    .contact{
-        font-size:6px;
-        line-height:17px;
-    }
+
 }
