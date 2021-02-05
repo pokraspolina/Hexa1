@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hexa</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html"><img  id="logo" src="images/logo.png"></a>
+            <img src="images/3.png" id="shelv">
+            <div class="menu">
+                <a href="index.html">главная</a><br>
+                <a href="author.html">Об авторе</a><br>
+                <a href="contact.html">Контакты</a><br>
+            </div>
+        </div>
+        <style>
+        .menu a:nth-child(5){
+        color:black;
+        font-weight: 700;
+        padding-left: 5vw;
+    }
+    .menu a:nth-child(1), .menu a:nth-child(3){
+        padding-right: 8vw;
+    }
+}
+        </style>
+        <h1 class="tagline"><span style="letter-spacing: 5px;">BOOKSTORE</span> <br>
+            <span style="font-weight: 300;"> — библиотека в твоем кармане</span></h1>
+    </header>
+        <h1 style="text-align: center;">Как мы можем Вам помочь?</h1>
+        <div id="help">
+            <form method="post" enctype="multipart/form-data" id="gform_1" action="/contact/">
+                <div class="gform_body">
+                    <ul class="gform_fields">
+                        <li><label for="input_1_1">Фамилия*</label>
+                            <div><input
+                                type="text"
+                                value="" class="medium"
+                                placeholder="Фамилия"
+                                aria-required="true"
+                                aria-invalid="false">
+                            </div>
+                        </li>
+                        <li><label for="input_1_1">Имя*</label>
+                            <div><input
+                                type="text"
+                                value="" class="medium"
+                                placeholder="Имя"
+                                aria-required="true"
+                                aria-invalid="false">
+                            </div>
+                        </li>
+                        <li><label for="input_1_1">Как вы узнали о нас?*</label>
+                            <div><input
+                                type="text"
+                                value="" class="medium"
+                                placeholder="Как вы узнали о нас?"
+                                aria-required="true"
+                                aria-invalid="false">
+                            </div>
+                        </li>                        
+                        <li><label>Email*</label>
+                            <div>
+                                <input type="text"
+                                value=""
+                                class="medium"
+                                placeholder="Email"
+                                aria-required="true"
+                                aria-invalid="false"> </div>
+                        </li>
+                        <li><label>Телефон(выборочно)</label>
+                            <div>
+                                <input type="text"
+                                value=""
+                                class="medium"
+                                placeholder="+380-(**)-***-**-**"
+                                aria-required="true"
+                                aria-invalid="false"> </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <input type="submit" class="gform_button" value="Отправить"> </div>
+            </form>
+        </div>
+    <footer>
+        <h3 class="footer-h3">MAGNA SED FEUGIAT</h1>
+        <p class="footer-text">Donec ornare, sem non congue cursus, neque sapien rutrum arcu,
+            sit amet gravida sapien lectus molestie ante. Nam ut purus
+            urna, in lacinia purus. Donec ornare, sem non
+            congue cursus, neque sapien rutrum arcu, sit amet
+            gravida sapien lectus tempus ante. Nam ut purus urna, 
+            in lacinia purus Nulla sed dictum neque pulvinar vehicula,
+            orci tellus ornare sapien, a fermentum libero turpis a tortor.
+            Vestibulum ac leo eu sem dolore et sed pharetra urna id mi.
+            Donec ornare, sem non congue cursus, neque sapien rutrum arcu,
+            sit amet gravida sapien lectus tempus ante. Nam ut purus urna,
+            in lacinia purus.</p>
+            <h3 class="footer-contact">КОНТАКТЫ</h3>
+            <ul class="contact">
+                <li><img src="images/home.svg" alt="">
+                    1234 Somewhere Blvd #543<br />
+                    Nashville, TN 00000-0000
+                </li>
+                <li><img src="images/phone-call.svg" alt="">
+                    <a href="tel:555-0000"> 555-0000</a>
+                </li>
+                <li><img src="images/email.svg" alt="">
+                    <a href="mailto:information@untitled.tld">information@untitled.tld</a>
+                </li>
+                <li><img src="images/twitter.svg" alt="">
+                    <a href="#">@untitled</a>
+                </li>
+            </ul>
+    </footer>
+</body>
+</html>
